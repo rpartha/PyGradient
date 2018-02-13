@@ -3,9 +3,10 @@
 Ever wanted _gradient_ wallpapers? Now you can make your very own gradient wallpapers using PyGradient!
 
 **Usage**:
-1. py -3 gradients.py
-2. enter sub-directory to save images to 
-3. bam! images are now created.
+1. Change the inputs as you see fit.
+2. py -3 gradients.py
+3. Enter sub-directory to save images to 
+4. BAM! Images are now created.
 
 **Requirements:** Python 3.5+
 

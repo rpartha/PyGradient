@@ -30,7 +30,7 @@ def gradient(hex_in1='525252', hex_in2='3d72b4', res=[1920,1080], grad='v', dir=
 
 
 if __name__ == "__main__":
-    res_in = [1920, 1200]
+    res_in = [1920, 1080]
 
     name = input('Enter name of sub folder that you wish to save images to: ')
     subdir = name + '/'
