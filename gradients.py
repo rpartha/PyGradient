@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib as mpl
 from matplotlib import image 
 
-def gradient(hex_in1='ff0000', hex_in2='0000ff', res=[1920,1080], grad='v', dir=''):
+def gradient(hex_in1='525252', hex_in2='3d72b4', res=[1920,1080], grad='v', dir=''):
     siqe_in = np.array(res)
 
     if grad == 'h':
@@ -38,9 +38,9 @@ if __name__ == "__main__":
     if not os.path.exists(subdir):
         os.makedirs(subdir)
 
-    gradient(hex_in1='dce35b', hex_in2='45b649', res=res_in, grad='h', dir=subdir)
+    gradient(hex_in1='ff4b1f', hex_in2='ff9068', res=res_in, grad='h', dir=subdir)
 
-    hex_pairs = [['ffc3a0', 'ffafbd'],['642b73', 'c64263'],['000000', '434343'],]
+    hex_pairs = [['16bffd', 'cb3066'],['00c9ff', '92fe9d'],['fc00ff', '00dbde'],]
 
     for pair in hex_pairs:
         gradient(hex_in1=pair[0], hex_in2=pair[1], res=res_in, dir=subdir)
